@@ -13,4 +13,9 @@ public class FileController {
         return "File API is running";
     }
 
+    @GetMapping("/about")
+    public static String about(){
+        return "This project is a server-side application that ";
+    }
+
 }
