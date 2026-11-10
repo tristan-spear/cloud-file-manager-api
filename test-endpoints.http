@@ -1,0 +1,2 @@
+### GET request for health() method to confirm Controller API is working
+GET http://localhost:8080/api/files/health
